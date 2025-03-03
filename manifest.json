@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Text Cipherer and Decipherer",
+  "version": "1.0",
+  "description": "A simple text ciphering and deciphering tool.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "clipboardRead",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
