@@ -21,5 +21,5 @@ The **Text Cipherer and Decipherer** is a Chrome extension that allows users to 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/text-cipherer.git
+   git clone https://github.com/Shadowtrooper01/cipherer
    cd text-cipherer
