@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* General Styles */
         body {
             font-family: 'Arial', sans-serif;
             width: 300px;
             padding: 20px;
-            background: #121212; /* Dark background */
-            backdrop-filter: blur(10px); /* Glassmorphism effect */
-            border-radius: 15px; /* Rounded corners */
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Shadow for depth */
-            color: #87CEEB; /* Sky blue text */
-            transition: background 0.3s ease; /* Transition for background */
+            background: #121212;
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            color: #87CEEB;
+            transition: background 0.3s ease;
         }
         h1 {
             text-align: center;
@@ -25,16 +24,16 @@
             height: 100px;
             margin-bottom: 10px;
             border: none;
-            border-radius: 10px; /* Rounded corners */
+            border-radius: 10px;
             padding: 10px;
             font-size: 16px;
-            color: #87CEEB; /* Sky blue text */
-            background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
-            transition: background 0.3s ease; /* Transition for background */
+            color: #87CEEB;
+            background: rgba(255, 255, 255, 0.1);
+            transition: background 0.3s ease;
         }
         textarea:focus {
-            outline: none; /* Remove outline */
-            background: rgba(255, 255, 255, 0.2); /* Change background on focus */
+            outline: none;
+            background: rgba(255, 255, 255, 0.2);
         }
         div {
             display: flex;
@@ -42,7 +41,7 @@
             margin-bottom: 10px;
         }
         label {
-            color: #87CEEB; /* Sky blue text */
+            color: #87CEEB;
         }
         input[type="radio"] {
             margin-right: 5px;
@@ -50,37 +49,37 @@
         button {
             width: 100%;
             padding: 10px;
-            background-color: #00BFFF; /* Sky blue button */
+            background-color: #00BFFF;
             color: white;
             border: none;
-            border-radius: 10px; /* Rounded corners */
+            border-radius: 10px;
             cursor: pointer;
             font-size: 16px;
-            transition: background 0.3s ease, transform 0.2s ease; /* Transition for background and transform */
+            transition: background 0.3s ease, transform 0.2s ease;
         }
         button:hover {
-            background-color: #0099CC; /* Darker sky blue on hover */
-            transform: scale(1.05); /* Slightly enlarge button on hover */
+            background-color: #0099CC;
+            transform: scale(1.05);
         }
         button:active {
-            transform: scale(0.95); /* Slightly shrink button on click */
+            transform: scale(0.95);
         }
         h2 {
             margin-top: 20px;
             text-align: center;
         }
         #outputText {
-            background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
-            color: #87CEEB; /* Sky blue text */
+            background: rgba(255, 255, 255, 0.1);
+            color: #87CEEB;
             border: none;
-            border-radius: 10px; /* Rounded corners */
+            border-radius: 10px;
             padding: 10px;
-            resize: none; /* Disable resizing */
-            transition: background 0.3s ease; /* Transition for background */
+            resize: none;
+            transition: background 0.3s ease;
         }
         #outputText:focus {
-            outline: none; /* Remove outline */
-            background: rgba(255, 255, 255, 0.2); /* Change background on focus */
+            outline: none;
+            background: rgba(255, 255, 255, 0.2);
         }
     </style>
     <title>Text Cipherer and Decipherer</title>
